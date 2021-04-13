@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Megamenu</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body class="bg-gray-100 leading-snug">
+        <header class="header relative flex justify-between items-center z-50 px-6 bg-white">
+            <a href="" class="text-2xl font-medium">LOGO</a>
+
+            <nav class="navigation">
+                <ul class="flex justify-center">
+                    <li class="has-megamenu"><a class="relative flex items-center px-5 text-lg" href="">Mattresses</a>
+                        <div class="navigation-dropdown absolute top-full inset-x-0 pt-8">
+                            <div class="relative z-10 navigation-dropdown-inner mx-auto">
+                                <div class="grid grid-cols-3 gap-4">
+                                    <div>
+                                        <h4 class="text-xl leading-snug font-medium mb-3 c-primary">Mattresses</h4>
+                                    
+                                        <ul class="navigation-submenu leading-snug">
+                                            <li class="py-1.5 text-lg"><a href="">Wave Hybrid</a></li>
+                                            <li class="py-1.5 text-lg"><a href="">Nova Hybrid <span class="badge c-primary relative inline-block uppercase font-medium leading-snug -top-0.5 -mt-0.5 ml-1 px-1.5 rounded-xl">New</span></a></li>
+                                            <li class="py-1.5 text-lg"><a href="">Original</a></li>
+                                            <li class="py-1.5 text-lg"><a href="">Element</a></li>
+                                        </ul>
+
+                                        <ul>
+                                            <li><a href="" class="btn bg-primary mt-8 inline-block text-lg text-white leading-snug font-medium py-2 px-5 rounded">See all mattresses</a></li>
+                                            <li><a href="" class="navigation-dropdown-link mt-8 inline-block c-primary">Compare mattresses</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-span-2">
+                                        <a href="" class="post-box block text-base c-text">
+                                            <h4 class="text-xl leading-snug font-medium mb-3 c-primary">The one that started it all</h4>
+                                            
+                                            <figure class="relative">
+                                                <span class="block overflow-hidden">
+                                                    <img src="https://caspercontent.imgix.net/1540xSCMPZLtYf5gNGGAWx/87db0580a5cde5d0fbe6c9309778fecb/original-hybrid.webp?auto=compress,format&cs=strip&q=65&w=624" alt="" />
+                                                </span>
+                                                <div class="figure-badge c-primary absolute flex items-center top-1.5 -left-1 pl-2 leading-snug text-sm">Most Popular</div>
+                                            </figure>
+                                        
+                                            <h5 class="pt-3 pb-1 text-lg leading-snug">Original Mattress</h5>
+
+                                            <span class="block c-gray">The perfect balance of support and cooling.</span>
+
+                                            <span class="block text-sm c-gray">Starting at <strong class="font-medium">$595</strong></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="has-megamenu"><a class="relative flex items-center px-5 text-lg" href="">Pillows</a>
+                        <div class="navigation-dropdown absolute top-full inset-x-0 pt-8">
+                            <div class="relative z-10 navigation-dropdown-inner mx-auto">
+                                <div class="grid grid-cols-3 gap-4">
+                                    <div>
+                                        <h4 class="text-xl leading-snug font-medium mb-3 c-primary">Pillows</h4>
+                                    
+                                        <ul class="navigation-submenu leading-snug">
+                                            <li class="py-1.5 text-lg"><a href="">Original Casper Pillow</a></li>
+                                            <li class="py-1.5 text-lg"><a href="">Foam Pillow</a></li>
+                                            <li class="py-1.5 text-lg"><a href="">Down Pillow</a></li>
+                                        </ul>
+
+                                        <ul>
+                                            <li><a href="" class="bg-primary mt-8 inline-block text-lg text-white leading-snug font-medium py-2 px-5 rounded">See all pillows</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-span-2">
+                                        <a href="" class="post-box block text-base c-text">
+                                            <h4 class="text-xl leading-snug font-medium mb-3 c-primary">Rest your weary head</h4>
+                                            
+                                            <figure class="relative">
+                                                <span class="block overflow-hidden">
+                                                    <img src="https://caspercontent.imgix.net/1ghSO1MBo1CvVvw9PPBTfZ/d1d9f1f9b265ed3beaf67f75be3c7fce/nav-foam-pillow-01.webp?auto=compress,format&cs=strip&q=65&w=624" alt="" />
+                                                </span>
+                                            </figure>
+                                        
+                                            <h5 class="pt-3 pb-1 text-lg leading-snug">Foam Pillow for contouring support <span class="badge c-primary relative inline-block uppercase font-medium leading-snug -top-0.5 -mt-0.5 ml-1 px-1.5 rounded-xl">New</span></h5>
+
+                                            <span class="block text-sm c-gray">Starting at <strong class="font-medium">$89</strong></span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li><a class="relative flex items-center px-5 text-lg" href="">Bed Frames</a></li>
+                    <li><a class="relative flex items-center px-5 text-lg" href="">Bedding</a></li>
+                    <li><a class="relative flex items-center px-5 text-lg" href="">Gifts</a></li>
+                    <li><a class="relative flex items-center px-5 text-lg" href="">Bundles</a></li>
+                    <li><a class="relative flex items-center px-5 text-lg highlighted font-medium" href="">Sale</a></li>
+                </ul>
+            </nav>
+
+            <a href="" class="text-2xl font-medium"><img class="h-5" src="img/cart.svg" alt="" /></a>
+        </header>
+
+        <div class="container max-w-screen-md pt-10 mx-auto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel metus nunc. Mauris maximus, leo a placerat porta, dui urna porttitor dolor, ut ultricies ex nisi nec odio. Vivamus est leo, vehicula nec suscipit vitae, vulputate quis lectus. Sed semper elit ante, vel tincidunt lectus consequat a. Nulla aliquet orci id nunc rhoncus, at feugiat nulla lacinia. Integer vel diam at sapien pharetra rhoncus. Cras ac vehicula augue. Duis ac tellus dignissim, lobortis est quis, ultricies lacus. Sed blandit aliquam tempor. Praesent malesuada massa nisl, eget rhoncus lectus placerat vitae. Nunc et massa et augue faucibus placerat. Ut quis finibus eros, at convallis nibh. Duis ultrices enim id lacus blandit, sit amet pellentesque odio volutpat. Aliquam vitae augue nulla. Nulla facilisi.</p>
+        </div>
+
+        <div class="layer"></div>
+
+        <script>
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=2"></' + 'script>');
+        
+        const menuItems = document.querySelectorAll(".has-megamenu");
+
+        menuItems.forEach(function(elem) {
+            elem.addEventListener("mouseover", event => {
+                document.querySelector(".layer").classList.add("layer-active");
+            });
+
+            elem.addEventListener("mouseout", event => {
+                document.querySelector(".layer").classList.remove("layer-active");
+            });
+        });
+        </script>
+    </body>
+</html>
